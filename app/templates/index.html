@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Not sure about an email?</h1>
+  <p>Forward it to <strong>{{ service_email }}</strong>. We'll reply telling you if it's a scam, and why.</p>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <ol>
+    <li>Forward the suspicious email to us.</li>
+    <li>We check it for common signs of phishing.</li>
+    <li>You get a reply in your inbox with the result and what we found.</li>
+  </ol>
+</section>
+{% endblock %}

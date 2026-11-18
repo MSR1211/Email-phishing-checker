@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy - EmailChecker{% endblock %}
+
+{% block content %}
+<h1>Privacy</h1>
+<p>We never store the content of the emails you send us. For each check we keep only:</p>
+<ul>
+  <li>the date, subject line and attachment file names</li>
+  <li>the suspicious sender's address and the domains of any links</li>
+  <li>the result and the warning signs we found</li>
+  <li>a scrambled (hashed) version of your email address, never the address itself</li>
+</ul>
+{% endblock %}
